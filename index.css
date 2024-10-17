@@ -1,0 +1,66 @@
+
+
+body{
+    text-align: center;
+    background-color: #011F3F
+}
+
+h1,h2{
+color:white;
+}
+
+.flex {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 250px;
+    width: 250px;
+    gap: 10px;
+
+    border-radius: 5%;
+    align-content: center;
+    
+}
+
+.one{
+    background-color: yellow;
+border-radius:10% ;
+border: 5px solid black
+}
+
+.two{
+    background-color: red;
+    border-radius:10% ;
+    border: 5px solid black
+}
+
+.three{
+    background-color: blue;
+    border-radius:10% ;
+    border: 5px solid black
+}
+
+.four{
+    background-color: green;
+    border-radius:10% ;
+    border: 5px solid black
+}
+
+
+
+
+.animation{
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.gameover{
+    background-color: red;
+}
